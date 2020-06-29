@@ -322,25 +322,21 @@
 	}
 
 
+	.hire-piper {
+		width: 360px;
+		height: 360px;
+		margin-top: 50px;
+	}
+
+
 /* #Team
 ================================================== */
 
-	.team {
-
-	}
-
-	.team .offset {
-		padding: 100px 0px 0px;
-	}
-
-	.team .member {
-
-	}
 
 	.team .member img {
 		height: 360px;
 		margin: 0px auto 40px;
-		width: 270px;
+		width: 360px;
 	}
 	.team .member .title {
 		font-size: 18px;
@@ -361,7 +357,7 @@
 ================================================== */
 
 	.clients {
-
+		margin: 20px;
 	}
 
 	.client {
@@ -623,7 +619,7 @@
 
 	.projects .preview .info {
 		padding-left: 40px;
-		text-align: left;
+		text-align: center;
 	}
 
 	.projects .preview .title {
@@ -643,9 +639,6 @@
 		padding: 35px 0px;
 	}
 
-	.projects .preview .more {
-		float: right;
-	}
 
 	.projects .start .title {
 		margin-bottom: 50px;
@@ -945,7 +938,6 @@
 		margin-bottom: 45px;
 		padding-left: 0px;
 		margin-top: -10px;
-		text-align: left;
 	}
 
 	.article .info .title {
@@ -962,51 +954,10 @@
 
 /* #Contact
 ================================================== */
-
-	.contact {
-
-	}
-
-	.contact .offset {
-		padding: 100px 0px 0px;
-	}
-
-	.contact form {
-		text-align: left;
-	}
-
-	.contact form input[type="text"],
-	.contact form input[type="password"],
-	.contact form input[type="email"],
-	.contact form textarea,
-	.contact form button {
-		width: 100%;
-	}
-
-	.contact form input[type="text"],
-	.contact form input[type="password"],
-	.contact form input[type="email"] {
-		border-top: none;
-		border-left: none;
-		border-right: none;
-		padding: 17px 10px;
-	}
-
-	.contact form button {
-		background-color: #eeeeee;
-		border: none;
-		color: #666666
-	}
-
-	.contact form button:hover {
-		background-color: #666666;
-		color: #eeeeee;
-	}
-
+	
 	.contact .info {
 		margin-bottom: 55px;
-		padding-left: 50px;
-		text-align: left;
+		text-align: center;
 	}
 
 	.contact .title {
@@ -1181,3 +1132,7 @@
 		background-color: #ffffff;
 		color: #000000;
 	}
+
+.con {
+	text-align: center;
+}
